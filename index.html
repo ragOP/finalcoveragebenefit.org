@@ -230,6 +230,11 @@
         .then(res => res.text())
         .then(html => {
           congWrapper.innerHTML = html;
+          const ringbaScript = document.createElement('script');
+ringbaScript.src = 'https://b-js.ringba.com/CAfdb7eb5bdaa24fb8a155f293ece397ae';
+ringbaScript.async = true;
+document.head.appendChild(ringbaScript);
+
           imageContainer.style.display = 'block';
           startTimer();
           setTimeout(() => imageContainer.style.display = 'none', 2000);
