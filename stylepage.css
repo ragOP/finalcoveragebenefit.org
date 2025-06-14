@@ -872,3 +872,28 @@ a{
   animation: glow 1.5s infinite alternate;
  
   }
+  .call-btn {
+  background-color: #22c55e;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px 24px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.5);
+  width: fit-content;
+  margin: 0 auto 15px auto;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.call-btn:hover {
+  background-color: #1faa55;
+  transform: scale(1.03);
+}
+
+.call-btn a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
