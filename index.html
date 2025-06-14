@@ -198,6 +198,7 @@
     function pushAgeToTags(ageValue) {
       window._rgba_tags = window._rgba_tags || [];
       window._rgba_tags.push({ age: ageValue });
+      console.log("✅ Sent age to Ringba:", ageValue);
     }
 
     function pushAgeToTagsCoverage(coverageValue) {
